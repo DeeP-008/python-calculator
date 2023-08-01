@@ -9,7 +9,7 @@ def get_User_Input():
     
     This function will take input from users in the form of numbers and a single string 'Done', which is when it will end.
     The inputs will be saved in a list in float form and throw an exception when anything other than the allowed inputs is 
-    entered by the user. It will then allow the user another opportunity to enter a number!
+    entered by the user. In case an exception is thrown, it  will then allow the user another opportunity to enter a number!
     Input - None
     Output - inputs: a list of inputs."""
     user_Exit = False   # will be true once the user enters 'done'
